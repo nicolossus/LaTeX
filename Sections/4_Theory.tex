@@ -1,0 +1,47 @@
+%================================================================
+\section{Theory}\label{sec:Theory}
+%================================================================
+
+%----------------------------------------------------------------
+\subsection{Project Theory 1}\label{sec:project theory}
+%----------------------------------------------------------------
+This is \autoref{sec:project theory}.
+
+Citation is done with \hologo{BibTeX} \cite[p.~100]{Sakurai}.
+
+Cross-reference equations such as
+\begin{equation}\label{eq:einstein}
+    E = m c^2
+\end{equation}
+with \cref{eq:einstein}.
+
+\autoref{fig:happy} shows a happy animal. 
+\begin{figure}[H]
+\begin{center}\includegraphics[scale=0.5]{Figures/Funny-Animal-Face.jpg}
+\end{center}
+\caption{Sloths are arboreal mammals noted for slowness of movement and for spending most of their lives hanging upside down in the trees.}
+\label{fig:happy}
+\end{figure}
+
+\autoref{tab:alternate} tabulates some values with alternating row colors.
+\begin{table}[H]
+\caption{Alternating background color for rows.}
+\centering
+\rowcolors{2}{gray!25}{white}
+\begin{tabular}{ccc}
+\hline
+\hline 
+$\alpha$ & $\beta$ & $\gamma$
+\\
+\hline 
+\hline 
+0.1 & 0.2 & 0.3
+\\
+0.4 & 0.5 & 0.6
+\\
+0.7 & 0.8 & 0.9
+\\
+\hline
+\end{tabular}
+\label{tab:alternate}
+\end{table}
